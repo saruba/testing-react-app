@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter'
+import List from './List'
 
 class App extends Component {
   render() {
@@ -11,14 +13,17 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
+          {/* <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             Learn React
-          </a>
+          </a> */}
+          <Counter />
+          <Counter />
+          <List />
         </header>
       </div>
     );
